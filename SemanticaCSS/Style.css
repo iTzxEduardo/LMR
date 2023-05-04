@@ -1,0 +1,53 @@
+body {
+    background: #bdc3c7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    text-align: center;
+}
+
+#menu {
+    width: 100%;
+    height: 60PX;
+    background-color: red;
+}
+
+#menu img {
+    height: 60px;
+}
+
+.LinkMenu {
+    color: aliceblue;
+    font-size: 2em;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.parte1 {
+    width: 100%;
+    height: 800px;
+    text-align: center;
+}
+
+.parte1 img {
+    height: 500px;
+}
+
+.parte1 h1 {
+    color: red;
+}
+
+.parte1 p {
+    font-family: 'Times New Roman', Times, serif;
+    color: azure;
+
+
+}
+#contato { 
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 220vh;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
