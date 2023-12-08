@@ -1,0 +1,225 @@
+.tituloBuscar{
+    display: flex;
+    justify-content: space-around;    
+    width: 100%;
+    margin-top: 03%;
+}
+#itensTitulo{
+   display:flex;
+   justify-content: space-evenly;
+   width: 20%;          
+}
+
+/* Menu filtro */
+
+.paste-button {
+    position: relative;
+    display: block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .button {
+    background-color: #9EDC4B;
+    color: #212121;
+    padding: 10px 15px;
+    font-size: 15px;
+    font-weight: bold;
+    border: 2px solid transparent;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+  
+  .dropdown-content {
+    display: none;
+    font-size: 13px;
+    position: absolute;
+    z-index: 1;
+    min-width: 200px;
+    background-color: whi;
+    border: 2px solid #9EDC4B;
+    border-radius: 0px 15px 15px 15px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+  
+  .dropdown-content a {
+    color: #212121;
+    padding: 8px 10px;
+    text-decoration: none;
+    display: block;
+    transition: 0.1s;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #9EDC4B;
+    color: #212121;
+  }
+  
+  .dropdown-content a:focus {
+    background-color: #9EDC4B;
+    color: #212121;
+  }
+  
+  .dropdown-content #top:hover {
+    border-radius: 0px 13px 0px 0px;
+  }
+  
+  .dropdown-content #bottom:hover {
+    border-radius: 0px 0px 13px 13px;
+  }
+  
+  .paste-button:hover button {
+    border-radius: 15px 15px 0px 0px;
+  }
+  
+  .paste-button:hover .dropdown-content {
+    display: block;
+  }
+
+  /* cards buscar */
+
+  #cardBuscar1{
+   
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 10vh;
+      font-family: "Arial";
+      width: 90%;   
+      margin-top: 10%; 
+     /*   background-color: #137de8;       para identificar o card  */
+      }
+
+      
+  #cardBuscar2{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    font-family: "Arial";
+    width: 90%;     
+    margin-top: 10%; 
+    /*   background-color: #9EDC4B;  para identificar o card  */    
+    }
+  
+  /*style cards */
+
+  .card {  
+    height: 350px;
+    border-radius: 12px;
+    box-shadow: 4px 4px 12px #aaaa;
+    width: 205px;
+    margin-left: 05%;
+    
+  }
+  .card img {
+    width: 100%;
+    height: 130px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+  }
+  .card div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 165px;
+    width: 198px;
+    border-radius: 12px;
+    margin-top: -10%;
+   
+  }
+  .card h1 {
+    margin-top: 10%;
+    font-size: 1.2rem;
+  }
+
+  #textH1 {
+    margin-top: 45%;
+    font-size: 1.2rem;
+  }
+
+  .card h2 {
+    font-size: .9rem;
+    
+  }
+
+  .card span {
+    font-size: .9rem;
+    color: rgb(33, 32, 32);
+  }
+  .card button {
+    background-color: #9EDC4B;
+    height: 30px;
+    border: none;
+    padding: 4px;
+    width: 120%;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 8px;
+    margin-left: -05%;    
+  }
+  .card button:hover {
+    background-color: #137de8;
+    cursor: pointer;
+  }
+  
+         
+ img{
+  margin-top: 2%;
+ }
+
+  #img1{
+    margin-top: 10%;
+    width: 200px;
+    height: 180px;
+  }
+  #img2{
+    margin-top: 10%;
+    width: 200px;
+    height: 180px;
+  }
+  #img3{
+    margin-top: 10%;
+    width: 200px;
+    height: 180px;
+  }
+
+  #img4{
+    margin-top: 10%;
+    width: 200px;
+    height: 180px;
+  }
+
+  
+  #img5{
+    margin-top: 10%;
+    width: 200px;
+    height: 180px;
+  }
+
+  
+  #img6{
+    margin-top: 10%;
+    margin-left: 13%;
+    width: 200px;
+    height: 180px;;
+  }
+
+  
+  #img7{
+    margin-left: 13%;
+    width: 150px;
+    height: 200px;;
+  }
+  
+  
+  #img8{
+    margin-top: 10%;
+     margin-left: 13%;
+    width: 150px;
+    height: 150px;
+    
+  }
